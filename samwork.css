@@ -1,0 +1,122 @@
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Header */
+header {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+/* Marquee */
+.marquee {
+    background-color: #00a8cc;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* All Sections */
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-left: 5px solid #00a8cc;
+}
+
+/* Section Headings */
+section h2 {
+    color: #102a43;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00a8cc;
+    padding-bottom: 8px;
+}
+
+/* Paragraphs */
+section p {
+    font-size: 16px;
+}
+
+/* Lists */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Contact Links */
+.Contact a {
+    color: #0086a8;
+    text-decoration: none;
+}
+
+.Contact a:hover {
+    color: #102a43;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.sameflex{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    height: 190px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .container {
+        width: 92%;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    .marquee {
+        font-size: 14px;
+    }
+}

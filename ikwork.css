@@ -1,0 +1,39 @@
+ 
+        body {
+            background-color: lavender;
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: purple;
+        }
+
+        .pictures {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .pictures img {
+            width: 30%;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        .box {
+            background-color: green;
+            padding: 15px;
+            margin: 20px 0;
+            border: 2px solid purple;
+            border-radius: 10px;
+        }
+
+        .goals {
+            background-color: Green;
+            padding: 20px;
+            border: 2px solid purple;
+            border-radius: 10px;
+        }
+    

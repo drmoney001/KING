@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Promises WORLD</title>
+<link rel="stylesheet" href="work.css">
+</head>
+
+<body> 
+
+<header>
+    <div class="logo">Promises WORLD</div>
+    <nav>
+        <a href="#gallery">Pictures</a>
+        <a href="index.html">Home</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Promise Nnajiofor C Promise Nnajiofor C Promise Nnajiofor C</h1>
+    <p>
+        A little space that tells my story.
+        My interests, my personality, my memories
+        and everything that makes me who I am.
+    </p>
+</section>
+
+<section class="gallery-section" id="gallery">
+    <h2 class="section-title">My Picture Gallery.</h2>
+
+    <div class="gallery" id="galleryBox">
+        <div class="photo-card">
+            <img src="olo.jpg"
+                 alt="Nature memory">
+        </div>
+
+        <div class="photo-card">
+            <img src="oloo.jpg"
+                 alt="Portrait memory">
+        </div>
+
+        <div class="photo-card">
+            <img src="iolo.jpg"
+                 alt="Travel memory">
+        </div>
+    </div>
+
+    <button class="add-photo" onclick="document.getElementById('photoInput').click()">
+        + Add My Pictures
+    </button>
+
+    <input type="file" id="photoInput" accept="image/*" multiple>
+</section>
+
+
+
+
+<section class="my-world-sections">
+    <div class="section-heading">
+        <h2>More About My World</h2>
+        <p>Different parts of who I am, what I love and where I'm going.</p>
+    </div>
+
+    <div class="world-grid">
+
+        <div class="world-card" onclick="toggleCard(this)">
+            <span>❤️</span>
+            <h3>My Likes</h3>
+            <p>Things I enjoy and appreciate.</p>
+            <div class="card-content">
+               <ul>
+                    <li>♥ Good music</li>
+                    <li>♥ Travelling and exploring</li>
+                    <li>♥ Technology and creativity</li>
+                    <li>♥ Honest people</li>
+                    <li>♥ Peace and happiness</li>
+                </ul>
+            </div>
+            <small>Click to explore ↓</small>
+        </div>
+
+        <div class="world-card" onclick="toggleCard(this)">
+            <span>✖️</span>
+            <h3>My Dislikes</h3>
+            <p>Things I don't appreciate.</p>
+            <div class="card-content">
+              <ul>
+                    <li>✕ Dishonesty</li>
+                    <li>✕ Disrespect</li>
+                    <li>✕ Unnecessary drama</li>
+                    <li>✕ Broken promises</li>
+                    <li>✕ Bad energy</li>
+                </ul>
+            </div>
+            <small>Click to explore ↓</small>
+        </div>
+
+        <div class="world-card" onclick="toggleCard(this)">
+            <span>🚀</span>
+            <h3>My Projects</h3>
+            <p>Things I'm currently building.</p>
+            <div class="card-content">
+             <ul>
+                    <li>🚀 Personal website</li>
+                    <li>🚀 Mobile app development</li>
+                    <li>🚀 Creative design projects</li>
+                    <li>🚀 Community initiatives</li>
+                </ul>
+            </div>
+            <small>Click to explore ↓</small>
+        </div>
+
+        <div class="world-card" onclick="toggleCard(this)">
+            <span>🎯</span>
+            <h3>My Goals for the Year</h3>
+            <p>What I'm working towards.</p>
+            <div class="card-content">
+               <ul>
+                    <li>🎯 Improve my skills</li>
+                    <li>🎯 Launch a new project</li>
+                    <li>🎯 Travel to new places</li>
+                    <li>🎯 Build meaningful connections</li>
+                    <li>🎯 Achieve personal growth</li>
+               </ul>
+            </div>
+            <small>Click to explore ↓</small>
+        </div>
+
+        <div class="world-card" onclick="toggleCard(this)">
+            <span>🌟</span>
+            <h3>My Dreams</h3>
+            <p>The future I imagine.</p>
+            <div class="card-content">
+               <ul>
+                <li>🌟 Travel the world</li>
+                <li>🌟 Start my own business</li>
+                <li>🌟 Make a positive impact</li>
+                <li>🌟 Live a fulfilling life</li   >
+               </ul>
+            </div>
+            <small>Click to explore ↓</small>
+        </div>
+
+        <div class="world-card" onclick="toggleCard(this)">
+            <span>👤</span>
+            <h3>About Me</h3>
+            <p>A little more about who I am.</p>
+            <div class="card-content">
+               <ul>
+                <li>👤 I am a creative individual with a passion for technology and design.</li>
+                <li>👤 I enjoy exploring new ideas and bringing them to life through projects.</li>
+                <li>👤 I am dedicated to continuous learning and self-improvement.</li>
+                <li>👤 I value honesty, respect, and meaningful connections with others.</li>
+               </ul>
+            </div>
+            <small>Click to explore ↓</small>
+        </div>
+
+        <div class="world-card" onclick="toggleCard(this)">
+            <span>🏆</span>
+            <h3>My Achievements</h3>
+            <p>Moments worth celebrating.</p>
+            <div class="card-content">
+                <ul>
+                    <li>🏆 Completed a major project successfully</li>
+                    <li>🏆 Received recognition for my work</li>
+                    <li>🏆 Learned a new skill that enhanced my abilities</li>
+                    <li>🏆 Contributed to a community initiative</li>
+                </ul>
+            </div>
+            <small>Click to explore ↓</small>
+        </div>
+
+        <div class="world-card" onclick="toggleCard(this)">
+            <span>🌍</span>
+            <h3>My Lifestyle</h3>
+            <p>How I live and spend my time.</p>
+            <div class="card-content">
+                <ul>
+                    <li>🌍 I maintain a balanced lifestyle with work, hobbies, and relaxation.</li>
+                    <li>🌍 I prioritize health and wellness through regular exercise and mindful eating.</li>
+                    <li>🌍 I enjoy spending time with family and friends, building strong relationships.</li>
+                    <li>🌍 I dedicate time to personal growth, learning, and exploring new interests.</li>
+                </ul>
+            </div>
+            <small>Click to explore ↓</small>
+        </div>
+
+    </div>
+</section>
+
+
+<footer>
+  This website was created by Promise Nnajiofor C. All rights reserved. &copy; 2024
+</footer>
+
+<script src="work.js"></script>
+
+</body>
+</html>
