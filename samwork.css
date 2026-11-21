@@ -97,6 +97,7 @@ footer {
 .sameflex{
     display: flex;
     justify-content: space-around;
+    flex-wrap: flex;
     gap: 1rem;
     height: 190px;
 }
